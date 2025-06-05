@@ -18,9 +18,8 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(9 of 12 last);         // Reduce width to make room
-    @include prefix(3 of 12);            // Match new sidebar width
-    @include suffix(0 of 12);            // Optional: remove or reduce suffix
+    @include span(9 of 12);
+    @include push(3 of 12); // Shift right to clear the sidebar
   }
 }
 
