@@ -21,7 +21,7 @@
     @include span(9 of 12);
     @include push(3 of 12); // Shift right to clear the sidebar
   }
-}
+
 
   .page__inner-wrap {
     @include full();
