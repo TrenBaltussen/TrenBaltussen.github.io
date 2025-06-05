@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Tren Baltussen / Site Title"
+title                    : "Tren Baltussen"
 title_separator          : "-"
 name                     : &name "Tren Baltussen"
 description              : &description "PhD Candidate in Control Theory."
