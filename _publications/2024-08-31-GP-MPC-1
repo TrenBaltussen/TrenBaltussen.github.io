@@ -11,7 +11,6 @@ citation: 'T.M.J.T. Baltussen, E. Lefeber, R. Tóth, W.P.M.H. Heemels and A.
 Katriniok, “Online learning of interaction dynamics with dual model
 predictive control for multi-agent systems using Gaussian processes,”
 American Control Conference 2025, arXiv:2409.00432.'
-
 ---
 
 The control of a single agent in complex and uncertain multi-agent environments requires careful consideration of the interactions between the agents. 
