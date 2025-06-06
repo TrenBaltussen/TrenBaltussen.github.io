@@ -6,7 +6,7 @@ permalink: /publication/2024-08-31-GP-MPC-1
 excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-08-31
 venue: 'American Control Conference'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl: 'http://academicpages.github.io/files/TMJT_Baltussen_GP_MPC_2025-06-06.pdf'
 citation: 'T.M.J.T. Baltussen, E. Lefeber, R. Tóth, W.P.M.H. Heemels and A.
 Katriniok, “Online learning of interaction dynamics with dual model
 predictive control for multi-agent systems using Gaussian processes,”
@@ -14,4 +14,11 @@ American Control Conference 2025, arXiv:2409.00432.'
 
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+The control of a single agent in complex and uncertain multi-agent environments requires careful consideration of the interactions between the agents. 
+In this context, this paper proposes a dual model predictive control (MPC) method using Gaussian process (GP) models for multi-agent systems.
+While Gaussian process MPC (GP-MPC) has been shown to be effective in predicting the dynamics of other agents, current
+methods do not consider the influence of the control input on the covariance of the predictions, and hence lack the dual control effect. 
+Therefore, we propose a dual MPC that directly optimizes the actions of the ego agent, and the belief of the other agents 
+by jointly optimizing their state trajectories as well as the associated covariance while considering their interactions through a GP. 
+We demonstrate our GP-MPC method in a simulation study on autonomous driving, showing improved prediction quality compared to a baseline stochastic MPC. 
+The results show that GP-MPC can learn the interactions between the agents online, demonstrating the potential of GPs for dual MPC in uncertain and unseen scenarios.
