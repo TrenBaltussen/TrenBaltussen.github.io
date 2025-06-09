@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "This page is currently under construction. - Please come back later!"
+title: "Bio"
 author_profile: true
 redirect_from: 
   - /about/
