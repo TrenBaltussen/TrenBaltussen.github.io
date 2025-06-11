@@ -28,11 +28,11 @@ author:
   bio              : "PhD Candidate in Control Theory"
   location         : "Eindhoven, the Netherlands"
   employer         : "Eindhoven University of Technology"
-  uri              : https://TrenBaltussen.github.io
+  uri              : https://www.tue.nl/en/research/researchers/tren-baltussen
   email            : "t.m.j.t.baltussen(at)tue(dot).nl" 
 
   # Academic websites
-  academia         : # https://www.tue.nl/en/research/researchers/tren-baltussen
+  academia         : https://research.tue.nl/nl/persons/tren-mjt-baltussen
   # arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=CRnlLFwAAAAJ&hl=en"
   # impactstory      : # URL
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # tren-baltussen
+  linkedin         : tren-baltussen
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
