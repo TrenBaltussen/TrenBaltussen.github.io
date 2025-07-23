@@ -12,8 +12,11 @@ author_profile: true
 {% endfor %} -->
 
 {% for post in site.teaching reversed %}
-  <div>
-    <h3>{{ post.title }}</h3>
-    {{ post.content }}
-  </div>
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <br>
+    <small>
+      {{ post.year }} &ndash; {{ post.type }}
+    </small>
+  </li>
 {% endfor %}
