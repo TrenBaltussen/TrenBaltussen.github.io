@@ -7,6 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
+<!-- {% for post in site.teaching reversed %}
   {% include archive-single.html %}
+{% endfor %} -->
+
+{% for post in site.teaching reversed %}
+  <div>
+    <h3>{{ post.title }}</h3>
+    {{ post.content }}
+  </div>
 {% endfor %}
