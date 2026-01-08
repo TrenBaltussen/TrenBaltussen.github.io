@@ -13,6 +13,6 @@ I received the M.Sc. degree (cum laude) in Systems and Control from the Eindhove
 
 ## Latest Publication
 
-> {% include /publications/2025-11-17-Dual-MPC-1.md %}
+> {% include_relative ../_publications/2025-11-17-Dual-MPC-1.md %}
 
 For more of my publications, see my [publications page](/publications/).
