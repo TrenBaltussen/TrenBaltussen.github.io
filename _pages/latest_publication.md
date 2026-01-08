@@ -1,6 +1,6 @@
 **Title:** Dual MPC for Active Learning of Nonparametric Uncertainties  
 **Authors:** T.M.J.T. Baltussen, W.P.M.H. Heemels, A. Katriniok  
-**Venue:** Conferences — Under review. Preprint available on [ArXiv](https://arxiv.org/abs/2511.08542)  
+Under review. Preprint available on [ArXiv](https://arxiv.org/abs/2511.08542)  
 **Date:** 2025-09-16  
 
 **Abstract:**  
