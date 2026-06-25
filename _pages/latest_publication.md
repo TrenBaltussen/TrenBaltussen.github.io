@@ -1,6 +1,6 @@
-**Title:** The Separation Principle and the Dual-Certainty Equivalence Gap in Model Predictive Control
-**Authors:** Tren Baltussen, Nathan P. Lawrence, Alexander Katriniok, Ali Mesbah, Maurice Heemels
-**Date:** 2026-04-14
+**Title:** The Separation Principle and the Dual-Certainty Equivalence Gap in Model Predictive Control<br>
+**Authors:** Tren Baltussen, Nathan P. Lawrence, Alexander Katriniok, Ali Mesbah, Maurice Heemels<br>
+**Date:** 2026-04-14<br>
 Preprint available on [ArXiv](https://arxiv.org/abs/2604.0604)  
 
 **Abstract:**  
