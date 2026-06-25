@@ -1,7 +1,7 @@
-**Title:** Dual MPC for Active Learning of Nonparametric Uncertainties  
-**Authors:** T.M.J.T. Baltussen, W.P.M.H. Heemels, A. Katriniok  
-**Date:** 2025-11-17
-Accepted for European Control Conference 2026. Preprint available on [ArXiv](https://arxiv.org/abs/2511.08542)  
+**Title:** The Separation Principle and the Dual-Certainty Equivalence Gap in Model Predictive Control
+**Authors:** Tren Baltussen, Nathan P. Lawrence, Alexander Katriniok, Ali Mesbah, Maurice Heemels
+**Date:** 2026-04-14
+Preprint available on [ArXiv](https://arxiv.org/abs/2604.0604)  
 
 **Abstract:**  
-This manuscript presents a dual model predictive controller (MPC) that balances the two objectives of dual control, namely, system identification and control. In particular, we propose a Gaussian process (GP)-based MPC that uses the posterior GP covariance for active learning. The dual MPC can steer the system towards states with high covariance, or to the setpoint, thereby balancing system identification and control performance (exploration vs. exploitation). We establish robust constraint satisfaction of the novel dual MPC through a contingency plan. We demonstrate the dual MPC in a numerical study of a nonlinear system with nonparametric uncertainties.  
+Dual control addresses the trade-off between exploitation and exploration, where control inputs both regulate the system and generate informative data for estimation and identification. For certain problem classes, control and estimation can be designed independently without loss of optimality, a property known as the separation principle. However, in stochastic control problems with model uncertainty and constraints, this principle generally breaks down, and introduces the need for dual control. In this paper, we propose an information-weighted dual model predictive control (MPC) formulation and introduce metrics that quantify the dependence of the MPC policy on the uncertainty. We focus on parametric uncertainty in linear systems with Gaussian noise, though the metrics can be applied more broadly. Numerical results show that the dependence of the MPC policy on the posterior covariance is largest under high uncertainty and vanishes as the posterior covariance contracts, providing empirical evidence of the dual effect in closed loop. Moreover, the dual controller improves regulation performance and model accuracy compared to certainty-equivalent MPC.
